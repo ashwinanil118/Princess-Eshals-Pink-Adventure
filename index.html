@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Eshal's Birthday Adventure</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="wrap">
+  <canvas id="game" width="1280" height="720"></canvas>
+  <div id="start" class="overlay">
+    <div class="card">
+      <div class="tiny">♡ a little game made just for you ♡</div>
+      <h1>Eshal's Birthday Adventure</h1>
+      <p>Collect all 22 hearts and make it to the birthday castle.</p>
+      <p class="controls">A / ← left &nbsp; D / → right<br>W / ↑ / Space jump &nbsp; S / ↓ crouch or drop</p>
+      <button id="play">PLAY ♡</button>
+    </div>
+  </div>
+  <div id="end" class="overlay hidden">
+    <div class="card">
+      <div class="bigheart">♡</div>
+      <h1>Happy Birthday, Eshal!</h1>
+      <p>You found every little heart I left for you.</p>
+      <p class="love">Every one was yours from the beginning.</p>
+      <p>— Ashwin ♡</p>
+      <button id="again">PLAY AGAIN</button>
+    </div>
+  </div>
+</div>
+<audio id="music" src="audio/cute_pink_theme.wav" loop preload="auto"></audio>
+<script src="js/game.js"></script>
+</body>
+</html>

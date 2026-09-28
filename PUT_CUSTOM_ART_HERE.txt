@@ -1,0 +1,1 @@
+Custom character and scenery image assets can be added here in later versions.
